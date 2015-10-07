@@ -1,0 +1,14 @@
+function sum = profile(nmin)
+
+%profile = zeros(n);
+l = 100;
+
+sum = zeros(nmin+l);
+for 
+for i = 1 : n
+    for j = 1 : n
+        %profile(i,j) = (cos((i-1)*pi/(2*n))*sin((j-1)*pi/(2*n))*sin((j-1)*pi/n))^2/((sin((j-1)*pi/(2*n)))^2 + (sin((i-1)*pi/(2*n)))^2) ; %for latest adjacent corners
+        %profile(i,j) = (sin((j-i)*pi/(2*n))*sin((j+i-2)*pi/(2*n))*cos((i-1)*pi/(2*n))*cos((j-1)*pi/(2*n)))^2/((sin((j-1)*pi/(2*n)))^2 + (sin((i-1)*pi/(2*n)))^2) ; %for opposite corners
+        sum(n- l +1) = sum(n- l +1) + (sin((j-i)*pi/(2*n))*sin((j+i-2)*pi/(2*n))*cos((i-1)*pi/(2*n))*cos((j-1)*pi/(2*n)))^2/((sin((j-1)*pi/(2*n)))^2 + (sin((i-1)*pi/(2*n)))^2) ; %for opposite corners
+    end
+end

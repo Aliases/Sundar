@@ -1,0 +1,16 @@
+%Simulates the direction of current flows in a grid circuit
+
+function [A] = SimGrid (n)
+
+% A is the adjacency matrix of the nxn grid
+
+for i = 1:1:n^2
+    for j = 1:1:n^2
+        i1 = mod(i,n)
+        i2 = (i - i1)/n
+        j1 = mod(j,n)
+        j2 = (j - j1)/n
+        if ()
+        A(i,j)
+    end
+end   

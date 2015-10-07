@@ -1,0 +1,11 @@
+Line 510 in .py file 
+And 330 in .java 
+
+I think we need to change the ordering cause to be maxi. of element rather than priority
+
+Also, I think lines 474-482 are flawed (in .py file). Some error with the expressions it seems. Repititive kind of.
+
+Also, they seem to be working with max. priority, while we need min. elem. value. So > or < values need to be checked and changed accordingly.
+^: This happens in splicing (i.e. reconsolidating trees). Check for other areas too.
+
+In decrease_key : Decrease element value and not priority value

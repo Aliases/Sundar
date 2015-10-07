@@ -1,0 +1,4 @@
+function fit = test
+
+ns = input('Enter the starting value : ');
+%ne = input('Enter the ending value : ');

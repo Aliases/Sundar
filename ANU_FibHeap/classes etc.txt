@@ -1,0 +1,16 @@
+class FibonacciHeap
+class FibonacciHeapNode
+
+make_heap()
+make_node(k)
+minimum(H)
+is_empty(H)
+insert(H,x)
+extract(H)
+decrease_key(H,x,k)
+__cut(H,x,y)
+__cascading_cut(H,y)
+__add_list(y,x)
+__union(H1,H2)
+__consolidate(H)
+__max_degree(n)
